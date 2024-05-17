@@ -242,6 +242,7 @@ a {
 
 .trends-menu {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 11px;
 
   font-size: 14px;
@@ -296,12 +297,21 @@ a {
 }
 
 .post-img {
+  width: 100%;
+  margin-right: 30px;
+
+  background-color: #ffffff;
+  
+}
+.post-image {
   width: 381px;
+  height: 294px;
   margin-right: 30px;
 }
 
 .post-menu {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 6px;
 
   font-size: 14px;
@@ -334,6 +344,9 @@ a {
   color: #000000;
 }
 
+.post-header__link:hover {
+     color: #b59f5b;
+ }
 .post-info {
   display: flex;
   margin-bottom: 44px;
@@ -488,8 +501,7 @@ a {
 .aside-headers-subscribe::after {
   content: "";
   display: block;
-  margin-top: 10px;
-  margin-left: 107px;
+  margin: 10px auto;
   width: 66px;
   height: 3px;
   background-color: #b59f5b;
@@ -553,8 +565,7 @@ a {
 .aside-headers-tegs::after {
   content: "";
   display: block;
-  margin-top: 10px;
-  margin-left: 109px;
+  margin: 10px auto;
   width: 66px;
   height: 3px;
   background-color: #b59f5b;
@@ -572,8 +583,7 @@ a {
 .aside-headers-themes::after {
   content: "";
   display: block;
-  margin-top: 10px;
-  margin-left: 109px;
+  margin: 10px auto;
   width: 66px;
   height: 3px;
   background-color: #b59f5b;
@@ -767,8 +777,6 @@ a {
 
 .footer {
   padding-top: 62px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .footer-social-link {
